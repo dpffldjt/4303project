@@ -1,2 +1,2 @@
-# 4303project
-
+# Elliot Pope -- CMPA 4303 -- Study Hanja
+In the last decade, resources for intermediate learners to study Sino-Korean vocabulary by using hanja have disappeared. This is a resource for Korean L2s at the intermediate level to help with building Sino-Korean vocabulary through hanja, which will also support Korean L1s studying for hanja proficiency tests.
