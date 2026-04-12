@@ -1,13 +1,273 @@
 <!DOCTYPE html>
 <head>
     <title>7급II</title>
-    <meta charset="UTF-8">?
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=0">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <nav>
-        <a href="index.html">Home</a>
+        <a href="index.html" class="button">Home</a>
     </nav>
+    <p class="button" id="mode-toggle" onclick="myFunction()">Toggle Blue Mode</p>
     <h1>7급II</h1>
+    <main>
+        <section class="hanja-list">
+            <div class="hanja-card">
+                <h2>家</h2>
+                <p>집 가</p>
+                <p>house, family</p>
+            </div>
+            <div class="hanja-card">
+                <h2>間</h2>
+                <p>사이 간(:)</p>
+                <p>between</p>
+            </div>
+            <div class="hanja-card">
+                <h2>江</h2>
+                <p>강 강</p>
+                <p>large river</p>
+            </div>
+            <div class="hanja-card">
+                <h2>車</h2>
+                <p>수레 거&#59; 수레 차</p>
+                <p>vehicle</p>
+            </div>
+            <div class="hanja-card">
+                <h2>空</h2>
+                <p>빌 공</p>
+                <p>empty</p>
+            </div>
+            <div class="hanja-card">
+                <h2>工</h2>
+                <p>장인 공</p>
+                <p>labour</p>
+            </div>
+            <div class="hanja-card">
+                <h2>氣</h2>
+                <p>기운 기</p>
+                <p>air, spirit</p>
+            </div>
+            <div class="hanja-card">
+                <h2>記</h2>
+                <p>기록할 기</p>
+                <p>record, remember</p>
+            </div>
+            <div class="hanja-card">
+                <h2>男</h2>
+                <p>사내 남</p>
+                <p>male</p>
+            </div>
+            <div class="hanja-card">
+                <h2>內</h2>
+                <p>안 내:</p>
+                <p>inside</p>
+            </div>
+            <div class="hanja-card">
+                <h2>農</h2>
+                <p>농사 농</p>
+                <p>agriculture</p>
+            </div>
+            <div class="hanja-card">
+                <h2>答</h2>
+                <p>대답 답</p>
+                <p>answer</p>
+            </div>
+            <div class="hanja-card">
+                <h2>道</h2>
+                <p>길 도:</p>
+                <p>path, road</p>
+            </div>
+            <div class="hanja-card">
+                <h2>動</h2>
+                <p>움직일 동:</p>
+                <p>movement</p>
+            </div>
+            <div class="hanja-card">
+                <h2>力</h2>
+                <p>힘 력</p>
+                <p>power, capability</p>
+            </div>
+            <div class="hanja-card">
+                <h2>立</h2>
+                <p>설 립</p>
+                <p>establish</p>
+            </div>
+            <div class="hanja-card">
+                <h2>每</h2>
+                <p>매양 매(:)</p>
+                <p>every, each</p>
+            </div>
+            <div class="hanja-card">
+                <h2>名</h2>
+                <p>이름 명</p>
+                <p>name</p>
+            </div>
+            <div class="hanja-card">
+                <h2>物</h2>
+                <p>물건 물</p>
+                <p>thing</p>
+            </div>
+            <div class="hanja-card">
+                <h2>方</h2>
+                <p>모 방</p>
+                <p>square</p>
+            </div>
+            <div class="hanja-card">
+                <h2>不</h2>
+                <p>아닐 불</p>
+                <p>not</p>
+            </div>
+            <div class="hanja-card">
+                <h2>事</h2>
+                <p>일 사:</p>
+                <p>business, incident</p>
+            </div>
+            <div class="hanja-card">
+                <h2>上</h2>
+                <p>윗 상:</p>
+                <p>top</p>
+            </div>
+            <div class="hanja-card">
+                <h2>姓</h2>
+                <p>성 성:</p>
+                <p>family name</p>
+            </div>
+            <div class="hanja-card">
+                <h2>世</h2>
+                <p>인간 세:</p>
+                <p>generation</p>
+            </div>
+            <div class="hanja-card">
+                <h2>手</h2>
+                <p>손 수(:)</p>
+                <p>hand</p>
+            </div>
+            <div class="hanja-card">
+                <h2>時</h2>
+                <p>때 시</p>
+                <p>time</p>
+            </div>
+            <div class="hanja-card">
+                <h2>市</h2>
+                <p>저자 시:</p>
+                <p>market, city</p>
+            </div>
+            <div class="hanja-card">
+                <h2>食</h2>
+                <p>밥, 먹을 식</p>
+                <p>eat, meal</p>
+            </div>
+            <div class="hanja-card">
+                <h2>安</h2>
+                <p>편안 안</p>
+                <p>peaceful, tranquil</p>
+            </div>
+            <div class="hanja-card">
+                <h2>午</h2>
+                <p>낮 오:</p>
+                <p>noon</p>
+            </div>
+            <div class="hanja-card">
+                <h2>右</h2>
+                <p>오늘(쪽) 우:</p>
+                <p>right, west</p>
+            </div>
+            <div class="hanja-card">
+                <h2>子</h2>
+                <p>아들 자</p>
+                <p>child</p>
+            </div>
+            <div class="hanja-card">
+                <h2>自</h2>
+                <p>스스로 자</p>
+                <p>self</p>
+            </div>
+            <div class="hanja-card">
+                <h2>場</h2>
+                <p>마당 장</p>
+                <p>open space, field</p>
+            </div>
+            <div class="hanja-card">
+                <h2>電</h2>
+                <p>번개 전:</p>
+                <p>electricity, lightning</p>
+            </div>
+            <div class="hanja-card">
+                <h2>前</h2>
+                <p>앞 전</p>
+                <p>in front</p>
+            </div>
+            <div class="hanja-card">
+                <h2>全</h2>
+                <p>온전 전</p>
+                <p>whole</p>
+            </div>
+            <div class="hanja-card">
+                <h2>正</h2>
+                <p>바를 정(:)</p>
+                <p>proper, correct</p>
+            </div>
+            <div class="hanja-card">
+                <h2>足</h2>
+                <p>발 족</p>
+                <p>foot, enough</p>
+            </div>
+            <div class="hanja-card">
+                <h2>左</h2>
+                <p>왼 좌:</p>
+                <p>left</p>
+            </div>
+            <div class="hanja-card">
+                <h2>直</h2>
+                <p>곧을 직</p>
+                <p>straight</p>
+            </div>
+            <div class="hanja-card">
+                <h2>平</h2>
+                <p>평평할 평</p>
+                <p>peaceful</p>
+            </div>
+            <div class="hanja-card">
+                <h2>下</h2>
+                <p>아래 하:</p>
+                <p>under</p>
+            </div>
+            <div class="hanja-card">
+                <h2>漢</h2>
+                <p>한수, 한나라 한</p>
+                <p>Chinese people, Chinese language</p>
+            </div>
+            <div class="hanja-card">
+                <h2>海</h2>
+                <p>바다 해:</p>
+                <p>sea, ocean</p>
+            </div>
+            <div class="hanja-card">
+                <h2>話</h2>
+                <p>말씀 화</p>
+                <p>speech, talk</p>
+            </div>
+            <div class="hanja-card">
+                <h2>活</h2>
+                <p>살 활</p>
+                <p>live, exist</p>
+            </div>
+            <div class="hanja-card">
+                <h2>孝</h2>
+                <p>효도 효:</p>
+                <p>filial piety</p>
+            </div>
+            <div class="hanja-card">
+                <h2>後</h2>
+                <p>뒤 후:</p>
+                <p>behind</p>
+            </div>
+        </section>
+        <a id="download" class="button" href="writing-pages/level-7b-writing-sheet.pdf" download>Download the writing worksheet!</a>
+    </main>
+    <footer>
+        <a href="mailto:popeelliot03@gmail.com">Contact me!</a>
+    </footer>
+    <script src="/js/view-mode.js" ></script>
 </body>

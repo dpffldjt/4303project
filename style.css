@@ -1,8 +1,99 @@
-* {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    margin: 16px 8px;
+:root { 
+    /* Font Sizes */
+    --font-small: 12px;
+    --font-medium: 16px;
+    --font-large: 24px;
+    --font-xl: 48px;
+
+    /* Spacing */
+    --spacing-small: 8px;
+    --spacing-medium: 16px;
+    --spacing-large: 24px;
+    --spacing-xl: 48px;
 }
 
-a {
-    color: darkgreen;
+* { 
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 1000px;
+    display: block;
+    margin: var(--spacing-small);
+    background-color: var(--background-colour);
+    color: var(--font-colour);
+}
+
+h2 {
+    font-size: var(--font-large);
+}
+
+b {
+    display: inline;
+    margin: 0;
+}
+
+.hanja-list {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin: 0, var(--spacing-small);
+}
+
+.hanja-card {
+    display: flex;
+    flex-flow: column wrap;
+    padding: var(--spacing-small);
+    margin: var(--spacing-small);
+    border: 2px solid black;
+    border-radius: 8px;
+    text-align: center;
+    width: 100px;
+    background-color: var(--card-colour);
+    transition: all 0.3s ease-out;
+}
+
+.hanja-card h2 {
+    font-size: 64px;
+    font-weight: bold;
+    border: 2px solid black;
+    border-radius: 8px;
+    padding: auto;
+    margin: var(--spacing-small);
+    color: var(--heading-colour)
+}
+
+.hanja-card:hover {
+    transform: scale(1.05);
+}
+
+.button {
+    font-size: var(--font-medium);
+    border: 2px solid black;
+    border-radius: 8px;
+    width: fit-content;
+    padding: 4px;
+    transition: all 0.3s ease-in;
+}
+
+.button:hover {
+    background-color: #3D758C;
+}
+
+#contact {
+    font-size: var(--font-small);
+    text-decoration: none;
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 2px;
+    margin: 0 auto;
+    width: fit-content;
+    float: right;
+}
+
+.blue-mode {
+    --primary-colour: #EFE6DD;
+    --background-colour: #cdd8dc;
+    --font-colour: #20414c;
+    --dark-middle: #2b5362;
+    --middle: #3D758C;
+    --shadow: #b8cad2;
+    --card-background: #a9c4cf;
 }
