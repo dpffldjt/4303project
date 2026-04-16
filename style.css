@@ -77,6 +77,29 @@ b {
     background-color: #3D758C;
 }
 
+.site-nav ul {
+    display: flex;
+    background-color: var(--dark-middle);
+    color: var(--primary-colour);
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    max-width: 1000px;
+}
+
+.site-nav li {
+    width: auto;
+    margin: 0;
+    padding: auto;
+    background-color: inherit;
+    float: left;
+}
+
+.site-nav a {
+    background-color: inherit;
+    color: var(--primary-colour);
+}
+
 #contact {
     font-size: var(--font-small);
     text-decoration: none;
