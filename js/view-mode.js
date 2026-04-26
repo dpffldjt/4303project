@@ -1,4 +1,4 @@
 function myFunction() {
   var element = document.body;
-  element.classList.toggle("blue-mode");
+  element.classList.toggle("dark-mode");
 }

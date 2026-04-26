@@ -1,4 +1,4 @@
-:root { 
+:root {
     /* Font Sizes */
     --font-small: 12px;
     --font-medium: 16px;
@@ -10,6 +10,17 @@
     --spacing-medium: 16px;
     --spacing-large: 24px;
     --spacing-xl: 48px;
+
+    /* Colour */
+    --font-colour: black;
+    --background-colour: white;
+    --accent-colour: #31572C;
+}
+
+.dark-mode {
+    --font-colour: white;
+    --background-colour: black;
+    --accent-colour: #3D758C;
 }
 
 * { 
