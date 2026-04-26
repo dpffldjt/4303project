@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<head>
+    <title>8급</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=0">
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <nav>
+        <a href="../index.html" class="button">Home</a>
+    </nav>
+    <p class="button" id="mode-toggle" onclick="myFunction()">Toggle Dark Mode</p>
+
+    <main>
+        <div class="quiz-container">
+            <h1>8급 quiz</h1>
+            <hr>
+            <section id="questions11to20">
+                <p>다음 訓<small>(훈: 뜻)</small> 이나 音<small>(음: 소리)</small>에 알맞은 漢字<small>한자</small>를 <b>보기</b>에서 찾아 그 번호를 쓰세요.</p>
+                <p>Choose the hanja from the example (보기) that matches the sound or meaning given below.</p>
+                <section class="bogi">
+                <h2>보기</h2>
+                <ol class="bogi-list">
+                    <li>萬</li>
+                    <li>三</li>
+                    <li>校</li>
+                    <li>長</li>
+                    <li>王</li>
+                    <li>弟</li>
+                    <li>小</li>
+                    <li>火</li>
+                    <li>五</li>
+                    <li>土</li>
+                </ol>
+                </section>
+                <ol class="questions">
+                    <li>흙</li>
+                    <li>작을</li>
+                    <li>왕</li>
+                    <li>만</li>
+                    <li>장</li>
+                    <li>아우</li>
+                    <li>삼</li>
+                    <li>불</li>
+                    <li>다섯</li>
+                    <li>교</li>
+                </ol>
+                <hr>
+                <p class="button" onclick="showAnswers()">Show answers</p>
+                <section class="answers" id="answers">
+                    <ol>
+                        <li>10</li>
+                        <li>7</li>
+                        <li>5</li>
+                        <li>1</li>
+                        <li>4</li>
+                        <li>6</li>
+                        <li>2</li>
+                        <li>8</li>
+                        <li>9</li>
+                        <li>3</li>
+                    </ol>
+                </section>
+            </section>
+        </div>
+    </main>
+    <script src="/js/view-mode.js" ></script>
+    <script src="../js/show-answers.js" ></script>
+</body>

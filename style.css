@@ -40,7 +40,7 @@ h2 {
     font-size: var(--font-large);
 }
 
-b {
+b, small {
     display: inline;
     margin: 0;
 }
@@ -129,7 +129,18 @@ b {
     float: right;
 }
 
-#download {
+#after-study {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#after-study p {
+    font-weight: bold;
+}
+
+#download, #test {
     width: fit-content;
     margin: 0 auto;
     padding: 8px;
@@ -137,16 +148,54 @@ b {
     color: var(--background-colour);
     border: 2px solid var(--font-colour);
     border-radius: 8px;
-    display: block;
     text-align: center;
 }
 
-.blue-mode {
-    --primary-colour: #EFE6DD;
-    --background-colour: #cdd8dc;
-    --font-colour: #20414c;
-    --dark-middle: #2b5362;
-    --middle: #3D758C;
-    --shadow: #b8cad2;
-    --card-background: #a9c4cf;
+.bogi {
+    border: 1px solid var(--font-colour);
+    border-radius: 8px;
+    margin: var(--spacing-small);
+    padding: var(--spacing-small)
+}
+
+.bogi h2 {
+    width: fit-content;
+    text-align: center;
+    margin: auto;
+    background-color: inherit;
+    border-bottom: 1px solid var(--font-colour);
+}
+
+.bogi-list {
+    display: flex;
+    flex-flow: row wrap;
+    margin: 0;
+}
+
+.bogi-list li {
+    margin: var(--spacing-small) var(--spacing-large);
+    font-size: var(--font-large);
+    padding: var(--spacing-small);
+    justify-content: space-around;
+}
+
+.quiz-container li {
+    display: list-item;
+}
+
+.answers ol {
+    display: flex;
+    flex-flow: row wrap;
+    margin: 0;
+}
+
+.answers li {
+    margin: var(--spacing-small) var(--spacing-large);
+    font-size: var(--font-medium);
+    padding: var(--spacing-small);
+    justify-content: space-evenly;
+}
+
+#answers {
+    display: none;
 }
